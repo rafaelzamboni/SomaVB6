@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Garante que arquivos de texto do VB6 mantenham quebras de linha padrão Windows (CRLF)
+*.vbp text eol=crlf
+*.vba text eol=crlf
+*.frm text eol=crlf
+*.bas text eol=crlf
+*.cls text eol=crlf
+*.ctl text eol=crlf
+
+# Define arquivos que são puramente binários (NÃO PODEM ser alterados)
+*.frx binary
+*.ctx binary
+*.res binary
+*.oca binary
+*.exe binary

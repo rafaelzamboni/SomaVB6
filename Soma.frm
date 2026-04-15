@@ -131,7 +131,6 @@ Private Sub btnCalculate_Click()
     ' Exibe o resultado
     MsgBox "O resultado da soma é: " & CStr(sum), vbInformation, "Resultado"
     
-    ' limpa os campos
     txtFirstNumber.Text = ""
     txtSecondNumber.Text = ""
     
