@@ -130,6 +130,10 @@ Private Sub btnCalculate_Click()
 
     ' Exibe o resultado
     MsgBox "O resultado da soma é: " & CStr(sum), vbInformation, "Resultado"
+    
+    txtFirstNumber.Text = ""
+    txtSecondNumber.Text = ""
+    
 End Sub
 
 ' Evento KeyPress para o primeiro TextBox
