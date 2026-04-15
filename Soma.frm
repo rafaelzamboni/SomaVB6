@@ -124,11 +124,9 @@ Private Sub btnCalculate_Click()
     ' Valida antes de converter para evitar erros
     If IsNumeric(txtFirstNumber.Text) Then number1 = CSng(txtFirstNumber.Text)
     If IsNumeric(txtSecondNumber.Text) Then number2 = CSng(txtSecondNumber.Text)
-
-    ' Realiza a soma
+    
     sum = number1 + number2
 
-    ' Exibe o resultado
     MsgBox "O resultado da soma é: " & CStr(sum), vbInformation, "Resultado"
     
     txtFirstNumber.Text = ""
